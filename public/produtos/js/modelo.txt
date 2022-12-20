@@ -1,0 +1,45 @@
+var informacao = document.getElementById('prato-informacao');
+var pratos = document.querySelector('.nomes');
+
+
+informacao.style.display = 'none'
+
+imagem(entrada);
+imagem(sashimi);
+
+function imagem(categoria) {
+    categoria.forEach((infor) => {
+        infor.addEventListener('click', (e) => {
+            informacao.style.display = 'flex'
+
+            let img = e.target.src;
+            let imagem = document.createElement('img');
+
+            if (e.target.src.includes('carpaccio')) {
+                imagem.classList.add('imagem-teste')
+                imagem.src = img
+
+                informacao.appendChild(imagem)
+                pratos.textContent = entradas[0]
+            }
+            if (e.target.src.includes('cararao')) {
+                imagem.classList.add('imagem-teste')
+                imagem.src = img
+
+                informacao.append(imagem)
+                pratos.textContent = entradas[1]
+            }
+            if (e.target.src.includes('sashimis')) {
+                imagem.classList.add('imagem-teste')
+                imagem.src = img
+
+                informacao.append(imagem)
+                pratos.textContent = entradas[0]
+            }
+        })
+    })
+}
+
+informacao.addEventListener('click', () => {
+    informacao.style.display = 'none'
+})

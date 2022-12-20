@@ -1,0 +1,46 @@
+@import url('./cabecalho.css');
+@import url('./corpo/corpo.css');
+@import url('./rodape.css');
+
+html, body, a {
+    color: #000;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho, .corpo, .rodape {
+    width: 100%;
+}
+
+.cabecalho {
+    height: 120px;
+    border-bottom: 1px solid;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+.corpo {
+    height: 100%;
+    position: relative;
+}
+
+.rodape {
+    height: 80px;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}

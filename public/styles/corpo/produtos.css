@@ -1,0 +1,94 @@
+#burger-produtos, #drinks-produtos, #petiscos-produtos, #sobremesas-produtos  {
+    display: none;
+}
+
+/* SUSHI */
+.entradas {
+    background: url('../../img/produtos/carpaccio.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.sashimis {
+    background: url('../../img/produtos/sashimis.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.niguiris {
+    background: url('../../img/produtos/niguiri.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.temakis {
+    background: url('../../img/produtos/temaki.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.pokes {
+    background: url('../../img/produtos/poke.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.sushis {
+    background: url('../../img/produtos/sushi2.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.pecas-especiais {
+    background: url('../../img/produtos/salmao-fry.png') no-repeat center;
+    background-size: cover;
+}
+
+.hots {
+    background: url('../../img/produtos/hot-philadelphia.png') no-repeat center;
+    background-size: cover;
+}
+
+.combos-simples {
+    background: url('../../img/produtos/combos.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.combos-especiais {
+    background: url('../../img/produtos/especial4.png') no-repeat center;
+    background-size: cover;
+}
+
+.petiscos {
+    background: url('../../img/produtos/petiscos.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+/* Buger */
+.burger-simples {
+    background: url('../../img/produtos/burger/DK1.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.burger-combo {
+    background: url('../../img/produtos/burger/combo-dk5.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+/* DRINKS */
+.sucos {
+    background: url('../../img/produtos/drinks/suco-de-morango-com-tangerina.jfif') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.drinks-sem-alcool {
+    background: url('../../img/produtos/drinks/coquetel.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.drinks-com-alcool {
+    background: url('../../img/produtos/drinks/moscow.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+/* PETISCOS */
+
+/* SOBREMESAS */
+.sobremesa {
+    background: url('../../img/produtos/sobremesa.jpg') no-repeat center;
+    background-size: 100% 100%;
+}

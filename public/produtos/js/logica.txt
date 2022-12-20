@@ -1,0 +1,34 @@
+var informacao = document.querySelectorAll('.teste');
+var pratos = document.querySelector('.nomes');
+
+for(var i=0; i<informacao.length; i++) {
+    informacao[i].style.display = 'none'
+}
+
+
+function imagem(categoria, numero, nome, prato, posicao) {
+    categoria.forEach((infor) => {
+        infor.addEventListener('click', (e) => {
+            informacao[numero].style.display = 'flex'
+            
+            let img = e.target.src;
+            let imagem = document.createElement('img');
+            imagem.classList.add('imagem-teste')
+
+            if (e.target.src.includes(nome)) {
+                imagem.src = img
+
+                informacao[numero].appendChild(imagem)
+                pratos.textContent = prato[posicao]
+                
+
+            }
+        })
+    })
+}
+
+informacao.forEach((tela)=>{
+    tela.addEventListener('click', ()=>{
+        tela.style.display = 'none'
+    })
+})

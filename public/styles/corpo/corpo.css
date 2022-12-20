@@ -1,0 +1,57 @@
+@import url('./slider.css');
+@import url('./categorias.css');
+@import url('./produtos.css');
+
+.telas, .produtos-item {
+    width: 100%;
+    height: 100%;
+}
+
+.telas {
+    padding: 10px 0;
+}
+
+#produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos-container {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.produtos-titulo {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.produtos-item {
+    width: 30%;
+    height: 7rem;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 0 5px;
+}
+
+.produtos-item a {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
